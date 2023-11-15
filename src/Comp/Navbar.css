@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+nav{
+   z-index: 100;
+}
+
+.nav-logo{
+    margin: 20px;
+}
+.nav-menu{
+    color: green;
+     margin: 18px 50px;
+     background-color: black;
+     height: 7%;
+     width: 9%;
+     padding-left: 22px;
+     display: flex;
+     border: none;
+     border-radius: 1px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-menu-item{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 14px;
+}
+.nav-btn{
+   background: transparent; 
+   color:#fff;
+   font-size: 26px;
+   border: none;
+   margin: 8px 4px;
+}
+
+.h4-navigation{
+    margin-top: 18px;
+    left: 0;
+}
+
+
+.nav-btn .nav-close-btn{
+  margin-bottom: 20px;
+
+}
+
+/* right menu list  */
+.menu-items{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 30px;
+   color: #fff;
+   width: 100%;
+   height: 100vh;
+   padding: 40px;
+}
+.menu-items a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.main-menu{
+    background-color: rgb(11, 10, 10);
+    width: 20%;
+    height: 650px;
+    text-align: left;
+   
+}
+
+.nav-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: green;
+    
+}
+.p-tag{
+    margin-right: 30px;
+    color:rgb(87, 85, 85) ;
+    font-size: 13px;
+}
+.nav-icons{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr;
+    color: rgb(87, 85, 85);
+}
+.nav-icons:hover{
+    color: #fff;
+}
+
+.main-menu_bar1{
+     margin-left: 80%;
+    position: absolute;
+   animation-name: example;
+   animation-duration: 4s;
+}
+@keyframes example{
+    0%{right:-100%;top:0px}
+    30%{right:0%;top:0%}
+}
+.main-menu_bar2{
+   position: absolute;
+  animation-name: roopa;
+  animation-duration: 4s;
+}
+@keyframes roopa{
+   0%{right:2%;top:0px}
+   30%{right:-60%;top:0%}
+}
+    
+/* responsive */
+@media screen and (min-width:481px) and (max-width:768px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-menu {
+          width: 19%;
+          margin: 15px;
+    
+       }
+    .main-menu{
+        background-color: rgb(31, 30, 30);
+        width: 50%;
+       
+
+    }
+    .main-menu{
+        background-color: rgb(31, 30, 30);
+    }
+   
+}
+@media screen and (max-width:481px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-menu{
+        color: green;
+        margin: 15px;
+        font-weight: 500;
+        font-size: 10px;
+        background-color: black;
+        width: 110px;
+       }
+       .main-menu{
+        height: 100%;
+        width: 55%;
+       }
+        .menu-items{
+            gap: 20px;
+            color: #fff;
+            width: 100%;
+
+         }
+         .nav-icons{
+            color: rgb(87, 85, 85);
+            gap: 5px;
+            margin-right: 5px;
+        }
+        .nav-btn, .nav-close-btn{
+            font-size: 15px;
+            padding: 10px;
+        }
+        .h4-navigation{
+            font-size: 15px;
+        }
+    
+    
+       
+}
+@media (max-width:768px){
+    .main-menu_bar1{
+        margin-left: 50%;
+       position: absolute;
+      animation-name: example;
+      animation-duration: 4s;
+   }
+   @keyframes example{
+       0%{right:-100%;top:0px}
+       30%{right:0%;top:0%}
+   }
+}

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button_scroll_up{
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+}
+html,body {
+  overflow-x: hidden;
+}

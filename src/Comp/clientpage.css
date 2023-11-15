@@ -1,0 +1,34 @@
+
+.client_page_container{
+    margin: auto;
+    width: 100%;
+    height: 1100px;
+    padding: 60px;
+    background-color:  rgb(228, 226, 226);
+    
+}
+.main_h4_heading{
+    font-size: 22px;
+    color: rgb(5, 153, 5);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main_h5_heading{
+   font-size: 50px;
+   text-align: center;
+   padding-bottom: 80px;
+} 
+.item-grid {
+    color: gray;
+    opacity: 0.5;
+    padding-left: 20px;
+  }
+  
+.item-grid:hover{
+    color: black;
+    opacity:1;
+  }
+.hr-tag{
+    border: 1px solid gray;
+}
+

@@ -1,0 +1,123 @@
+.text-animation {
+    font-size: 24px;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-80px);
+    }
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-80px);
+    }
+  }
+.top-content{
+   margin-top: 150px;
+   
+  }
+  .h4-tag-animatioin{
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .h2-tag-animatioin{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .service-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 100px;
+  }
+  .h1-brand{
+    font-size: 30px;
+   margin-left: -190px;
+  }
+  .p-tag-content{
+    color: gray;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 2px 90px;
+    padding-bottom: 25px;
+  }
+  .icons-style{ 
+   font-size: 60px;
+    color: green;
+  }
+  .display-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  @media screen and (max-width:481px){
+    .h2-tag-animation{
+      font-size: 20px;
+    }
+    .service-grid-container{
+      display: grid;
+      grid-template-columns:40% 40%;
+      gap: 40px;
+      width: 100%;
+      margin:auto;
+      margin-right: 60px;
+    }
+    .user-1-grid, .display-content,.icons-style{
+     font-size: 40px;
+    }
+    .h1-brand{
+      font-size: 15px;
+     margin-left:2px;
+    }
+    .p-tag-content{
+      font-size: 15px;
+      line-height: 15px;
+    }
+    .icons-style{
+      font-size: 24px;
+      padding-left: 50px;
+    }
+    .display-content{
+      padding-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width:481px) and (max-width:1155px)  {
+    .h2-tag-animatioin{
+      font-size: 25px;
+    }
+    .service-grid-container{
+      display: grid;
+      grid-template-columns:40% 50%;
+      gap: 40px;
+      width: 100%;
+      margin: 20px;
+    }
+    .user-1-grid, .display-content,.icons-style{
+      font-size: 40px;
+     }
+     .h1-brand{
+       font-size: 15px;
+      margin-left:2px;
+     }
+     .p-tag-content{
+       font-size: 20px;
+       line-height: 25px;
+     }
+     .icons-style{
+       font-size: 30px;
+       padding-left:60px;
+     }
+     .display-content{
+       padding-bottom: 20px;
+     }
+  }
